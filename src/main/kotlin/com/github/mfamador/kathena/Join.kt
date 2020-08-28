@@ -18,7 +18,6 @@ fun main() {
             .also { it.show() }
             .map { c(it.first.id, it.first.name, it.second?.value) }
             .show()
-
     }
 }
 
